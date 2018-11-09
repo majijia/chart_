@@ -1,0 +1,28 @@
+/*字体*/
+.app_bac .text_one{
+  position: absolute;
+  top:17.5%;
+  left:38%;
+  color:#fa85c3;
+}
+/*选择音乐*/
+.chose{
+  display: flex;
+  justify-content: space-around;
+  margin-top:30rpx;
+}
+.chose .img_chose_one{
+   width:54rpx;
+   height:54rpx;
+   
+}
+.chose .chose_one{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.chose .chose_one text{
+  color:#666;
+  font-size: 14px;
+  margin-top:14rpx;
+}

@@ -1,0 +1,74 @@
+/**app.wxss**/
+@import './style/widget/weui.wxss';
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}
+
+/*背景图片*/
+.app_bac{
+  text-align: center;
+}
+/*时间*/
+.app_bac .bac_w{
+  width:70%;
+  border-top:1px solid #FFEDF7;
+  color:#fff;
+  position: absolute;
+  top:36%;
+  left:15%;
+  display: flex;
+  justify-content: space-between;
+  /*visibility: hidden;*/
+}
+.app_bac .img_one{
+  width:750rpx;
+  height:560rpx;
+  position: relative;
+}
+.app_bac .img_two,.app_bac .img_three{
+  width:60rpx;
+  height:60rpx;
+  position: absolute;
+  top:26%;
+  left: 45%;
+
+}
+.app_bac .img_three{
+  display: none;
+}
+.app_bac .team_one{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top:-8rpx;
+}
+.app_bac .text_two{
+  font-size: 12px;
+  margin-top:8rpx;
+  color: #f3f3f3;
+}
+/*圆点*/
+.app_bac .circle{
+   width:15rpx;
+   height:15rpx;
+   border-radius: 50%;
+   background-color:#f3f3f3; 
+   margin-left:6rpx;
+}
+/*定时关闭*/
+.close_time{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color:#f9f9f9;
+  position: absolute;
+  top:41%;
+  left:32%;
+  font-size: 18px;
+}

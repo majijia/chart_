@@ -1,0 +1,54 @@
+<!--logs.wxml-->
+<view class="app_bac">
+  <image src="../../aseets/bac_one_01.jpg" class="img_one"></image>
+  <text class="text_one">{{name}}</text>
+  <audio src="{{src}}" id="myAudio"></audio>
+  <image src="{{url}}" class="img_two" bindtap='audioPlay'></image>
+  <!--时间设置-->
+  <view class="bac_w">
+    <view class="team_one">
+      <view class="circle"></view>
+      <view class="text_two">5</view>
+    </view>
+    <view class="team_one">
+      <view class="circle"></view>
+      <view class="text_two">10</view>
+    </view>
+    <view class="team_one">
+      <view class="circle"></view>
+      <view class="text_two">15</view>
+    </view>
+    <view class="team_one">
+      <view class="circle"></view>
+      <view class="text_two">30</view>
+    </view>
+    <view class="team_one">
+      <view class="circle"></view>
+      <view class="text_two">60</view>
+    </view>
+  </view>
+  <!--关闭-->
+  <view class="close_time">
+    <text>30分钟定时关闭</text>
+  </view>
+</view>
+ <!--选择音乐-->
+ <view class="chose">
+   <view class="chose_one">
+     <image src="../../aseets/window.png" class="img_chose_one" bindtap="circle_bac">
+     </image>
+     <text>{{name}}</text>
+   </view>
+   <view class="chose_one">
+     <image src="../../aseets/window.png" class="img_chose_one"></image>
+     <text>{{name}}</text>
+   </view>
+   <view class="chose_one">
+     <image src="../../aseets/window.png" class="img_chose_one"></image>
+     <text>{{name}}</text>
+   </view>
+   <view class="chose_one">
+     <image src="../../aseets/window.png" class="img_chose_one"></image>
+     <text>{{name}}</text>
+   </view>
+ </view>
